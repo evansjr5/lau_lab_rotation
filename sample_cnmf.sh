@@ -4,8 +4,9 @@ for file in "$data_dir"/*; do
     echo "$file"
     name="$file"
     echo "$name:"
-    sample_prefix=$(basename "$file" | cut -d'/' -f1)
+    sample_prefix=$(basename "$file" | cut -d'/' -f1 | cut -d'.h5ad')
     echo "$sample_prefix"
+    
     #cnmf prepare "$file" \
     #--output-dir "$output_dir" \
     #--name  \
