@@ -1,6 +1,6 @@
 data_dir=/home/james/data/immune_exclusion_data/seperate_sample_data
 
-for file in data_dir; do
+for file in "$data_dir"/*; do
     echo "$file"
     name="$file"
     echo "$name"
