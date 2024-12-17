@@ -15,7 +15,7 @@ output_dir=/home/james/data/cNMF_out/per_sample_cnmf
     #echo "Finished"
 #done
 
-for dir in "$data_dir"/*; do
+for dir in "$output_dir"/*; do
     echo "$dir"
 done
     
