@@ -1,6 +1,7 @@
 data_dir=/home/james/data/immune_exclusion_data/seperate_sample_data
 
 for file in data_dir; do
+    print(file)
     name=file
     cnmf prepare /home/james/data/immune_exclusion_data/file \
     --output-dir /home/james/data/cNMF_out \
