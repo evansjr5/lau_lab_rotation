@@ -4,7 +4,7 @@ for file in "$data_dir"/*; do
     echo "$file"
     name="$file"
     echo "$name:"
-    sample_prefix=$(basename "$file" | cut -d'/' -f1 | cut -d'.h5ad')
+    sample_prefix=$(basename "$file" | cut -d'/' -f1 | cut -d'.' -f1)
     echo "$sample_prefix"
     
     #cnmf prepare "$file" \
