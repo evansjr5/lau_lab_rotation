@@ -15,7 +15,13 @@ output_dir=/home/james/data/cNMF_out/per_sample_cnmf
     #echo "Finished"
 #done
 
-for dir in "$output_dir"/*; do
-    echo "$dir"
+for file in "$data_dir"/*; do
+    sample_prefix=$(basename "$file" | cut -d'/' -f1 | cut -d'.' -f1)
+    sample_name=${sample_prefix}_cNMF
+    cnmf factorize \
+    --output-dir "$output_dir" \
+    --name "$sample_name" \
+    --n-jobs 5 \
+    --worker-index 0
 done
     
