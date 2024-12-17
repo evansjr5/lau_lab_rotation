@@ -7,7 +7,7 @@ for file in "$data_dir"/*; do
     
     cnmf prepare "$file" \
     --output-dir "$output_dir" \
-    --"$sample_name" \
+    --name "$sample_name" \
     -k 8 9 10 11 14 16 18 19 20 22 25 26 27 28 30 31 33 35 \
     -n 30 \
     -j 1
