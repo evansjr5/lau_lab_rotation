@@ -17,4 +17,5 @@ output_dir=/home/james/data/cNMF_out/per_sample_cnmf
 
 for dir in "$data_dir"/*; do
     echo "$dir"
+done
     
