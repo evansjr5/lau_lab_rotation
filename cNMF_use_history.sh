@@ -615,3 +615,114 @@ cnmf consensus \
 --name sample_10096_s1_cNMF \
 -k 16 \
 --local-density-threshold 0.05
+
+#########################################
+## useing for each indivdual sample after the automation
+#########################################
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10180_01_s1_sample_cNMF \
+-k 17 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10180_01_s2_sample_cNMF \
+-k 5 15 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10180_01_s3_sample_cNMF \
+-k 15 19 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10180_01_s4_sample_cNMF \
+-k 23 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10180_02_s1_sample_cNMF \
+-k 19 23 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10180_02_s2_sample_cNMF \
+-k 17 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10180_02_s3_sample_cNMF \
+-k 17 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10180_02_s4_sample_cNMF \
+-k 13 27 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_9142_s1_sample_cNMF \
+-k 11 19 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_9142_s2_sample_cNMF \
+-k 17 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10096_s1_sample_cNMF \
+-k 15 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10096_s2_sample_cNMF \
+-k 15 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10096_s3_sample_cNMF \
+-k 11 15 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10096_s4_sample_cNMF \
+-k 13 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10284_s1_sample_cNMF \
+-k 15 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10284_s2_sample_cNMF \
+-k 9 21 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10284_s3_sample_cNMF \
+-k 19 \
+--local-density-threshold 0.05
+
+cnmf consensus \
+--output-dir /home/james/data/cNMF_out/per_sample_cnmf \
+--name sep_10284_s4_sample_cNMF \
+-k 13 \
+--local-density-threshold 0.05
